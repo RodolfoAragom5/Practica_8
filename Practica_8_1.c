@@ -10,7 +10,8 @@ main ()
 
   for( i=1; i<10; i++)
     {
-      printf("%d*%d="%d\n", r, i, n);
+      r=n*i;
+      printf("%d*%d=%d\n", r, i, n);
     }
   return 0;
 }
