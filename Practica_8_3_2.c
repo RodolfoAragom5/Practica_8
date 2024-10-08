@@ -10,8 +10,8 @@ int exp_for(int a, int b)
   for (i=0; i<b; i++)
     {
       resp=a*resp;
-      return(resp);
     }
+    return(resp);
 }
 
 int exp_while(int a, int b)
@@ -21,7 +21,7 @@ int exp_while(int a, int b)
     while (i<b)
     {
       resp=a*resp;
-      i+1;
+      i=i+1;
     }
     return(resp);
   }
